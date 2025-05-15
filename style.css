@@ -85,7 +85,7 @@ p {
     break-inside: avoid; /* hindrer at bildet deler seg over kolonner */
 }
 .mellomtittel {
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
 }
 
 .brodtekst::first-letter {
