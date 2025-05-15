@@ -75,16 +75,19 @@ p {
     margin-bottom: 1rem;
     font-weight: 600;
 }
-
+div.image-wrapper {
+    display: block;
+    break-inside: avoid;
+    width: 100%;
+    margin-bottom: 1rem;
+}
 .float-right {
     float: right;
     width: 100%;
-
     margin-left: 2rem;
     margin-bottom: 1rem;
     border-radius: 0px;
     object-fit: cover;
-    break-inside: avoid; /* hindrer at bildet deler seg over kolonner */
     display: block;
 }
 .mellomtittel {
