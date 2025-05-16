@@ -37,7 +37,7 @@ h2 {
 
     columns: 3;
     column-gap: 30px;
-    column-width: 250px; /*	Minimum bredde på én kolonne, justerer antall dynamisk */
+    column-width: 300px; /*	Minimum bredde på én kolonne, justerer antall dynamisk */
     column-rule: 1px solid #ccc;
     background-color: rgb(241, 241, 241);
     padding: 3rem;
@@ -84,6 +84,7 @@ div.image-wrapper {
 .float-right {
     float: right;
     width: 100%;
+    min-height: auto;
     margin-left: 2rem;
     margin-bottom: 1rem;
     border-radius: 0px;
